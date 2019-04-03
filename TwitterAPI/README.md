@@ -1,22 +1,10 @@
-# 3720 Twitter API Example
+# Project Description
+Pulling twitter data, design a web interface and represent the data visually. I used recent tweets with the hastag #todaysnews and created a hands free interface where the user can just sit back, relax and read recent news tweets without having to lift a finger in the process. It is set up that every 1 minute there is a new pull request from Twitters API, so you get the most recent tweets no matter how long you decide to sit infront of the screen and are able to read the new tweets coming in.  
 
-This project works with the wonderful PHP Wrapper [TwitterAPIExchange.php](https://github.com/j7mbo/twitter-api-php) by [James Mallison](https://www.j7mbo.com/) (J7mbo) 
+## Copyright
+Site designed and made by Sara Sefel
+Automatic scroll animation effect code from: https://css-tricks.com/snippets/css/star-wars-crawl-text/
+Background image made by Sara Sefel, image used from: http://www.katharinefriedgen.com/wp-content/uploads/2015/06/waves_one.png
 
-## Get Validated:
-* Create a [Twitter App](https://developer.twitter.com/en/apps)
-* use a domain name you own as the Website URL (won't be an issue for local hosting)
-* generate keys and tokens
-
-## Update and Run Code
-* update credentials in get_tweets.php with keys and tokens from Twitter App
-* set $URL endpoint and $getfield methods in get_tweets.php
-* run the project from a local server
-* examine data and determine what to pull and how to display it
-
-## Running Twitter Wrapper with UwAmp
-To use with UwAmp, you must update the CURL certificate (no need to do this if you're running MAMP)
-1. Run UwAmp
-2. Click on page icon next to PHP Config button 
-3. Search for curl.cainfo
-4. Delete the semicolon at the start of the line and update the line to read: `curl.cainfo = "C:\Curl\cacert.pem"`
-5. Save the file
+### Instructions
+As mentioned no instructions needed, just relax with some coffee in your hand and read through the news that scrolls over your screen. If for some reason there is a glitch, just refresh the page and you are good to go :)
